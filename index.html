@@ -1,0 +1,208 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luxury Date</title>
+  <meta name="description" content="An ultra-premium cinematic date proposal experience created with HTML5, CSS3, and vanilla JavaScript." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="loader" class="loader">
+    <div class="loader-ring"></div>
+    <p class="loader-text">Creating the most beautiful moment for you...</p>
+  </div>
+
+  <div id="page" class="page hidden">
+      <div id="cursor" class="cursor"></div>
+      <div id="trail" class="trail"></div>
+
+      <header class="hero-section">
+<div id="heroPhoto" class="hero-photo" style="background-image: url('img/WhatsApp Image 2026-06-20 at 11.11.38 PM (1).jpeg');">
+
+
+        <!-- Replace assets/hero-photo.jpg with her main hero photo -->
+        <div class="hero-glow"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-accents">
+          <span class="pulse-dot pulse-1"></span>
+          <span class="pulse-dot pulse-2"></span>
+          <span class="spark spark-1"></span>
+          <span class="spark spark-2"></span>
+          <span class="spark spark-3"></span>
+          <span class="petal petal-1"></span>
+          <span class="petal petal-2"></span>
+        </div>
+        <div class="hero-panel reveal">
+          <p class="eyebrow">For Maryam</p>
+          <h1 id="heroTitle" class="hero-title">Hi {Maryam❤️}</h1>
+          <p class="hero-copy">I built something special for you❤️</p>
+          <div class="hero-actions">
+            <a href="#choices" class="button button-soft">Explore</a>
+            <a href="#proposal" class="button button-glow">See Proposal</a>
+          </div>
+        </div>
+        <div class="scroll-indicator reveal">Scroll</div>
+      </div>
+    </header>
+
+    <main class="main-content">
+      <section id="choices" class="section reveal-section">
+        <div class="section-head">
+          <span class="section-label">Interactive Choices</span>
+          <h2>Choose a dreamy plan</h2>
+          <!-- <p>Tap any option and watch a sweet cinematic reveal built for her.</p> -->
+        </div>
+        <div class="cards-grid">
+          <button class="choice-card" data-title="Coffee Date" data-message="Let’s share warm cups, soft lighting, and a magical moment designed for the two of us.">☕<span>Coffee Date</span></button>
+          <button class="choice-card" data-title="Food Hunt" data-message="A playful luxury food journey with every bite tasting like a memory we’ll never forget.">🍕<span>Food Hunt</span></button>
+          <button class="choice-card" data-title="Movie Night" data-message="A golden film night with cozy whispers, glowing eyes, and cinematic comfort.">🎬<span>Movie Night</span></button>
+          <button class="choice-card" data-title="Ice Cream" data-message="An enchanting sweet treat date with laughter, flavor, and delicate pink lights.">🍦<span>Ice Cream</span></button>
+          <button class="choice-card" data-title="Long Drive" data-message="A luxurious drive beneath the stars with your favorite playlist and soft conversation.">🚗<span>Long Drive</span></button>
+          <button class="choice-card" data-title="Surprise" data-message="A sparkling surprise experience created to make your heart flutter and smile brighter than ever.">🎁<span>Surprise</span></button>
+        </div>
+      </section>
+
+      <section class="section reveal-section" id="about">
+        <div class="section-head">
+          <span class="section-label">About Her</span>
+          <h2>A portrait of why she is unforgettable</h2>
+          <p>Glassmorphism panels, floating hearts, and elegant statistics designed to feel premium.</p>
+        </div>
+        <div class="about-grid">
+          <div class="about-card glass-card reveal">
+            <h3>Soft glow</h3>
+            <p>Her presence is like a luminous film glow that makes the whole world more beautiful.</p>
+          </div>
+          <div class="about-card glass-card reveal">
+            <h3>Gentle power</h3>
+            <p>Every smile, every step, radiates strength wrapped in tenderness.</p>
+          </div>
+<div class="about-image reveal" style="background-image: url('img/WhatsApp Image 2026-06-20 at 11.11.38 PM (2).jpeg');"></div>
+
+          <div class="stats-panel glass-card reveal">
+            <div class="stat"><strong>100%</strong><span>Dream energy</span></div>
+            <div class="stat"><strong>24/7</strong><span>Warmth</span></div>
+            <div class="stat"><strong>Luxury</strong><span>Feel</span></div>
+            <div class="stat"><strong>Soft</strong><span>Whispers</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reveal-section" id="reasons">
+        <div class="section-head">
+          <span class="section-label">Reasons Why</span>
+          <h2>Ten reasons she takes my breath away</h2>
+          <!-- <p>Each card is animated with premium motion and a glowing hover effect.</p> -->
+        </div>
+        <div class="reasons-grid">
+          <div class="reason-card reveal">🌹<h3>Unforgettable smile</h3></div>
+          <div class="reason-card reveal">✨<h3>Effortless grace</h3></div>
+          <div class="reason-card reveal">🎶<h3>Melodic laughter</h3></div>
+          <div class="reason-card reveal">🌙<h3>Dreamlike presence</h3></div>
+          <div class="reason-card reveal">💫<h3>Bold kindness</h3></div>
+          <div class="reason-card reveal">🍃<h3>Pure warmth</h3></div>
+          <div class="reason-card reveal">💌<h3>Soft energy</h3></div>
+          <div class="reason-card reveal">🔥<h3>Joyful passion</h3></div>
+          <div class="reason-card reveal">🌸<h3>Sweet elegance</h3></div>
+          <div class="reason-card reveal">🌟<h3>Radiant light</h3></div>
+        </div>
+      </section>
+
+      <section class="section reveal-section" id="proposal">
+        <div class="section-head">
+          <span class="section-label">Proposal</span>
+          <h2>Would you like to go on a date with me?</h2>
+          <!-- <p>Every detail was crafted to make this moment feel unforgettable and intimate.</p> -->
+        </div>
+        <div class="proposal-actions">
+          <button id="yesButton" class="button button-glow">Yes</button>
+          <button id="noButton" class="button button-soft">No</button>
+        </div>
+      </section>
+
+      <section class="section reveal-section" id="timeline">
+        <div class="section-head">
+          <span class="section-label">Memory Timeline</span>
+          <h2>A vertical journey through our favorite moments</h2>
+          <!-- <p>Scroll-triggered reveals, photo cards, and cinematic storytelling.</p> -->
+        </div>
+        <div class="timeline-list">
+          <article class="timeline-item reveal">
+            <div class="timeline-bullet"></div>
+            <div class="timeline-card">
+              <span class="timeline-date">First Meeting</span>
+              <h3>When our story began</h3>
+              <p>That first magical moment felt like the world stopped in a golden glow.</p>
+<div class="timeline-image" style="background-image:url('img/WhatsApp Image 2026-06-20 at 11.11.38 PM (1).jpeg');"></div>
+
+            </div>
+          </article>
+          <article class="timeline-item reveal">
+            <div class="timeline-bullet"></div>
+            <div class="timeline-card">
+              <span class="timeline-date">First Adventure</span>
+              <h3>Moonlit laughter</h3>
+              <p>A night full of sparkles, soft conversations, and unforgettable joy.</p>
+<div class="timeline-image" style="background-image:url('img/WhatsApp Image 2026-06-20 at 11.11.38 PM (2).jpeg');"></div>
+
+            </div>
+          </article>
+          <article class="timeline-item reveal">
+            <div class="timeline-bullet"></div>
+            <div class="timeline-card">
+              <span class="timeline-date">Today</span>
+              <h3>Ready for forever</h3>
+              <!-- <p>A proposal designed like a luxury reel, emotional from the first second.</p> -->
+<div class="timeline-image" style="background-image:url('img/WhatsApp Image 2026-06-20 at 11.11.39 PM.jpeg');"></div>
+
+            </div>
+          </article>
+        </div>
+      </section>
+
+     
+      <section class="section reveal-section" id="surprise">
+        <div class="section-head">
+          <span class="section-label">Surprise</span>
+          <h2>Open my surprise</h2>
+          <!-- <p>Large glowing button, full screen reveal, and particles for a premium celebration.</p> -->
+        </div>
+        <button id="surpriseButton" class="button button-glow surprise-button reveal">Open My Surprise</button>
+      </section>
+
+      <section class="section reveal-section" id="final">
+        <div class="final-card glass-card reveal">
+          <p class="section-label">Final Screen</p>
+          <h2>Thank you Maryam❤️</h2>
+          <p>You make life more beautiful. Every moment is brighter when you are in it.</p>
+        </div>
+      </section>
+    </main>
+
+    <div id="modal" class="modal hidden">
+      <div class="modal-panel reveal">
+        <button id="closeModal" class="modal-close">×</button>
+        <p class="modal-label">A sweet note</p>
+        <h3 id="modalTitle">Choice Title</h3>
+        <p id="modalMessage">Message goes here.</p>
+      </div>
+    </div>
+
+    <div id="celebration" class="celebration hidden">
+      <div class="celebration-panel">
+        <h2>Best Decision Ever ❤️</h2>
+        <p>Thank you for making this moment incredible.</p>
+        <button id="endCelebration" class="button button-soft">Close</button>
+      </div>
+      <div class="confetti-layer"></div>
+      <div class="heart-layer"></div>
+      <div class="firework-layer"></div>
+    </div>
+
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
